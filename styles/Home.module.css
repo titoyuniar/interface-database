@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -117,5 +117,146 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+} */
+.container {
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+.navbarkiri {
+  float: left;
+  width: 15%;
+  /* background-color: aqua; */
+  height: 130vh;
+  background: white;
+  border-right: 1px solid rgb(220, 220, 220);
+}
+.navbarkanan {
+  height: 8vh;
+  width: 85%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.dashboard_traffic {
+  width: 85%;
+  float: left;
+  background: #f7f7f7;
+}
+.dashboard {
+  height: 50vh;
+  width: 65%;
+  float: left;
+  margin: 10px 0 10px 10px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  border-radius: 4px;
+}
+.traffic {
+  height: 50vh;
+  width: 30%;
+  float: left;
+  margin: 10px 0px 0px 20px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  border-radius: 4px;
+}
+.card {
+  position: relative;
+  width: 84%;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+.resent_order {
+  width: 82%;
+  float: left;
+  margin: 15px;
+  background: #f7f7f7;
+}
+.resentactivities {
+  width: 40%;
+  height: 48vh;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  float: left;
+}
+.orderstatus {
+  width: 58%;
+  height: 48vh;
+  float: left;
+  margin: 0px 0px 0px 20px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+}
+.cardcontent1 {
+  background-color: blue;
+}
+.cardcontent2 {
+  background-color: rgb(22, 255, 80);
+}
+
+@media screen and (max-width: 500px) {
+  .navbarkiri {
+    float: left;
+    width: 100%;
+    border-right: none;
+    height: 125vh;
+  }
+  .navbarkanan {
+    height: 8vh;
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    /* border-top: 1px solid rgb(0, 0, 0); */
+    margin-bottom: 5px;
+  }
+  .dashboard_traffic {
+    width: 100%;
+    float: left;
+  }
+  .dashboard {
+    height: 50vh;
+    width: 99%;
+    float: left;
+    margin: 0px 0 10px 0px;
+    border: 1px solid black;
+  }
+  .traffic {
+    height: 50vh;
+    width: 99%;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+  }
+  .card {
+    width: 100%;
+    height: 125px;
+    margin-top: 15px;
+  }
+  .resent_order {
+    width: 100%;
+    float: left;
+  }
+  .resentactivities {
+    margin-top: 495px;
+    width: 96%;
+    height: 60vh;
+    border: black 1px solid;
+    float: none;
+    background-color: greenyellow;
+  }
+  .orderstatus {
+    width: 96%;
+    border: solid black 1px;
+    height: 55vh;
+    float: left;
+    margin: 10px 0px 0px 0px;
+    font-size: 12px;
   }
 }

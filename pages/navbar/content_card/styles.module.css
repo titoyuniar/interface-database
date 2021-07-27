@@ -1,0 +1,84 @@
+.card {
+  background: #f7f7f7;
+}
+.card1 {
+  color: whitesmoke;
+  width: 245px;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+  background-image: linear-gradient(to right, #e74a89, #a359b0);
+}
+.card2 {
+  color: whitesmoke;
+  width: 245px;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+  background-image: linear-gradient(to right, #5d4bba, #9b81cd);
+}
+.card3 {
+  width: 245px;
+  color: whitesmoke;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+  background-image: linear-gradient(to right, #48c2f0, #6592da);
+}
+.card4 {
+  color: whitesmoke;
+  width: 245px;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+  background-image: linear-gradient(to right, #ffb92d, #ef815e);
+}
+.nama {
+  margin-left: 15px;
+  font-size: 14px;
+}
+.nama2 {
+  font-size: 30px;
+  margin: 5px 0px 0px 15px;
+}
+.bar {
+  width: 190px;
+}
+@media screen and (max-width: 500px) {
+  /* .card {
+    margin-top: 10px;
+    width: 340px;
+    height: 125px;
+    border: black solid 1px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #e04b8d, #bd519f);
+  } */
+  .card1 {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .card2 {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .card3 {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .card4 {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+}

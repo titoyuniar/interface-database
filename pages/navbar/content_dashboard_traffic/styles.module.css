@@ -1,0 +1,77 @@
+.cardnav {
+  float: left;
+  width: 95%;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  /* background-color: rgb(169, 166, 166); */
+}
+.dashboard {
+  margin: 0px;
+}
+
+.overview {
+  margin: 0px;
+  font-weight: 400;
+}
+
+.dolar {
+  margin: 10px 0px 0px 0px;
+}
+
+.current {
+  margin: 0px 0px 10px 0px;
+}
+.dashboardkiri {
+  width: 30%;
+  float: left;
+  font-weight: 500;
+}
+.dashboardkanan {
+  width: 65%;
+  height: 33vh;
+  float: right;
+}
+
+.divtraffic {
+  margin: 15px 0px 0px 15px;
+}
+.clear {
+  clear: left;
+}
+
+.chartjs {
+  color: aqua;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 500px;
+  margin-top: 20px;
+}
+.doughnut {
+  margin-left: 40px;
+  width: 230px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: #e74a89;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+@media screen and (max-width: 500px) {
+  .divtraffic {
+    margin: none;
+  }
+  .dashboardkiri {
+    width: 30%;
+    float: left;
+    font-weight: 500;
+    font-size: 10px;
+  }
+}

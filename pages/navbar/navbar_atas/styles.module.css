@@ -1,0 +1,11 @@
+.navbaratas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ikonlist a {
+  margin-left: 10px;
+}
+.itemimg a {
+  margin-right: 10px;
+}

@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  /* background-color: greenyellow; */
+}
+.nav_navbarkiri {
+  width: 100%;
+  height: 8vh;
+  background-color: deeppink;
+  margin: auto;
+  display: flex;
+  background: linear-gradient(to right, #eb4886, #a359b0);
+}
+.lector {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  align-items: center;
+}
+.listitemprops {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+.edittitle {
+  display: inline-block;
+  margin: 15px 0px 0px 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+  .listitemprops {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    margin-left: 100px;
+  }
+}
