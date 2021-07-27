@@ -57,14 +57,6 @@
   width: 190px;
 }
 @media screen and (max-width: 500px) {
-  /* .card {
-    margin-top: 10px;
-    width: 340px;
-    height: 125px;
-    border: black solid 1px;
-    margin-top: 10px;
-    background-image: linear-gradient(to right, #e04b8d, #bd519f);
-  } */
   .card1 {
     width: 95%;
     margin-bottom: 10px;

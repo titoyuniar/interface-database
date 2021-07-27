@@ -1,4 +1,4 @@
-import { Doughnut, Line } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import styles from "./styles.module.css";
 
 function Traffic() {

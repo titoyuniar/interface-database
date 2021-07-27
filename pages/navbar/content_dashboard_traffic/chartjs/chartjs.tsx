@@ -1,5 +1,5 @@
 import styles from "../styles.module.css";
-import { Bar, Bubble, Line } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 
 function Chartjs() {
   return (

@@ -17,7 +17,6 @@ function Dashboard() {
       <div className={styles.dashboardbawah}>
         <div>
           <p className={styles.imgbawah}></p>
-          {/* <p>email</p> */}
         </div>
         <div className={styles.clear}></div>
       </div>

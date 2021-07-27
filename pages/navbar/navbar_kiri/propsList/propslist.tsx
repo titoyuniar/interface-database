@@ -16,12 +16,10 @@ import imgkeranjang from "../../ikon/imgkeranjang.svg";
 import imgkursor from "../../ikon/imgkursor.svg";
 import imgmaps from "../../ikon/imgmaps.svg";
 import imgnetwork from "../../ikon/imgnetwork.svg";
-import imgnotifikasi from "../../ikon/imgnotifikasi.svg";
 import imgsearch from "../../ikon/imgsearch.svg";
 import imgtable from "../../ikon/imgtable.svg";
 import imgtodolist from "../../ikon/imgtodolist.svg";
 import imguser from "../../ikon/imguser.svg";
-import Document, { Head } from "next/document";
 
 function PropsList() {
   return (
