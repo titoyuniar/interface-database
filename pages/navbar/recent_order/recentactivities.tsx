@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import Image from "next/dist/client/image";
 import zikonlight from "../ikon/zikonlight.svg";
 import zikonlist from "../ikon/zikonlist.svg";
-import zikonpen from "../ikon/zikonpen.svg";
+import zikonpensil from "../ikon/zikonpensil.svg";
 
 function ResentActivities() {
   return (
@@ -26,7 +26,7 @@ function ResentActivities() {
             <Image src={zikonlight}></Image>
           </div>
           <div className={styles.resentimg3}>
-            <Image src={zikonpen}></Image>
+            <Image src={zikonpensil}></Image>
           </div>
           <div className={styles.resentimg4}>
             <Image src={zikonlight}></Image>
