@@ -21,13 +21,26 @@
   margin: auto;
   text-align: left;
 }
+.edit {
+  margin: 15px 0px 0px 10px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.edit:hover {
+  color: #eb4886;
+  text-decoration: underline #eb4886;
+}
+.edit a {
+  margin-left: 10px;
+}
 
-.edittitle {
+/* .edittitle {
   display: inline-block;
   margin: 15px 0px 0px 10px;
   font-size: 12px;
   font-weight: 400;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .listitemprops {
@@ -35,5 +48,17 @@
     margin: auto;
     text-align: left;
     margin-left: 100px;
+  }
+  .lector {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    align-items: center;
+    font-size: 18px;
+  }
+  .edittitle {
+    display: inline-block;
+    margin: 15px 0px 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
   }
 }

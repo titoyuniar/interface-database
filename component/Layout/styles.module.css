@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+}
+.navbarkiri {
+  float: left;
+  width: 15%;
+  height: 130vh;
+  background: white;
+  border-right: 1px solid rgb(220, 220, 220);
+}
+.navbarkanan {
+  height: 8vh;
+  width: 85%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+@media screen and (max-width: 500px) {
+  .navbarkiri {
+    float: left;
+    width: 100%;
+    border-right: none;
+    height: 145vh;
+    font-size: 30px;
+  }
+  .navbarkanan {
+    height: 8vh;
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    /* border-top: 1px solid rgb(0, 0, 0); */
+    margin-bottom: 5px;
+  }
+}

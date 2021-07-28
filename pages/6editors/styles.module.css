@@ -1,0 +1,55 @@
+.content {
+  width: 85%;
+  float: left;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  height: 30vh;
+}
+.content p {
+  margin: 10px 0px 0px 15px;
+}
+.contentkiri {
+  width: 35%;
+  float: left;
+  margin: 10px 7px 7px 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  background: white;
+}
+.contenttengah {
+  width: 30%;
+  float: left;
+  margin: 10px 7px 7px 15px;
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  background: white;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.contentkanan {
+  width: 20%;
+  float: left;
+  margin: 10px 7px 7px 15px;
+  box-shadow: 0px 0px 3px 0px rgb(211 211 211);
+  background: white;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.contenttengah button {
+  width: 100%;
+  text-align: left;
+  height: 5vh;
+  margin-bottom: 2px;
+}
+.contentkanan button {
+  width: 100%;
+  text-align: left;
+  height: 5vh;
+  margin-bottom: 2px;
+}
+.contentkiri button {
+  width: 100%;
+  text-align: left;
+  height: 5vh;
+  margin-bottom: 2px;
+}

@@ -12,12 +12,12 @@ function Chartjs() {
               {
                 label: "daily",
                 data: [5, 15, 10, 15, 10, 30],
-                backgroundColor: "blue",
+                backgroundColor: "#46c4f5",
               },
               {
                 label: "may",
                 data: [5, 10, 15, 10, 15, 30],
-                backgroundColor: "red",
+                backgroundColor: "#eb4883",
               },
             ],
           }}
