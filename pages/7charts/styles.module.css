@@ -28,3 +28,19 @@
   width: 152px;
   margin: auto;
 }
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+  .cardbar {
+    width: 90%;
+    margin: 10px auto;
+    margin-left: 15px;
+    height: 30vh;
+  }
+  .radar canvas {
+    height: 100px;
+    width: 150px;
+    margin: auto;
+  }
+}

@@ -23,7 +23,6 @@ function Formelements() {
             </div>
             <h5>Alamat : </h5>
             <textarea name="" id="" cols={30} rows={10}></textarea>
-
             <h5>Hobby</h5>
             <div className={styles.radio}>
               <input type="checkbox" />

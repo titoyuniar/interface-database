@@ -47,3 +47,17 @@
   margin: 0;
   display: inline-block;
 }
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+  .contentkiri {
+    width: 90%;
+    margin: auto 15px;
+    box-sizing: border-box;
+  }
+  .contentkanan {
+    width: 90%;
+    margin: 15px;
+  }
+}

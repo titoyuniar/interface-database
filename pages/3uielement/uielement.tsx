@@ -22,7 +22,7 @@ function Uielement() {
       <Layout>
         <div className={styles.content}>
           <div className={styles.uielement}>
-            <h5>Ui Elements/Bento Menu</h5>
+            <h5>Ui Elements Bento Menu</h5>
             <div className={styles.ikon}>
               <Image src={ikonlist} width={55} height={55}></Image>
             </div>

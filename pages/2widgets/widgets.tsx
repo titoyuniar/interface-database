@@ -59,7 +59,7 @@ function Widgets() {
             />
             <Propswidgetkanan
               nama="Resent Comments"
-              paragraf="Your site's most resent Comments"
+              paragraf="Your site most resent comments"
             />
             <Propswidgetkiri
               nama="Resent Post"

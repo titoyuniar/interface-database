@@ -53,3 +53,23 @@
   height: 5vh;
   margin-bottom: 2px;
 }
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+  .contentkiri {
+    width: 45%;
+    float: left;
+    padding: 5px;
+  }
+  .contenttengah {
+    width: 40%;
+    float: left;
+    padding: 5px;
+  }
+  .contentkanan {
+    width: 40%;
+    float: left;
+    padding: 5px;
+  }
+}

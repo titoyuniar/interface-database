@@ -28,3 +28,11 @@
   justify-content: center;
   display: inline-block;
 }
+
+@media screen and (max-width: 500px) {
+  .content {
+    float: left;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+  }
+}
